@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mīnu meklētājs</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <script type="text/javascript" src="./funkcijas.js"></script>
+  </head>
+  <body>
+      <div id="box">
+         <h2>Mīnu meklētājs</h2>
+         <h4>Attīri laukumu neuzkāpjot uz mīnas!</h4>
+         <h5>Cipariņi norāda cik mīnu ir apkārt piespiestajai šūnai</h5>
+         <h3><span>Laiks: </span><span id="minutes">00</span>:<span id="seconds">00</span>.<span id="tens">00</span></h3><br><br>
+            <div id="field"></div>
+            <br>
+          <div id="lost" style="display: none;">
+            <h3>Tu uzkāpi uz mīnas!</h3>
+            <button id="new-game-button" type="button" onclick="parladetLapu()">Jauna spēle</button>
+          </div>         
+      </div>
+  </body>
+</html>
